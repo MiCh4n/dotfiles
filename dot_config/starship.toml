@@ -1,0 +1,36 @@
+format = """
+┌───────────────────
+│$username\
+$hostname\
+$directory\
+$line_break\
+└─$python\
+$character
+
+"""
+
+[username]
+style_user = "225 italic"
+style_root = "black bold"
+format = "[$user]($style)"
+disabled = false
+show_always = true
+
+[hostname]
+ssh_only = true
+format = " on [$hostname](bold purple)"
+trim_at = ".companyname.com"
+disabled = false
+
+[directory]
+truncation_length = 9
+truncate_to_repo = true
+style = "225 italic"
+format = " [@](231 bold) [$path]($style)"
+
+[character]
+format = "[安](219 italic) "
+
+[python]
+format = "<[$virtualenv]($style)> "
+style = "bright-purple"
