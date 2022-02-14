@@ -1,5 +1,5 @@
 I dunno plugins or smth:
-
-- [starship](https://starship.rs/)
+- [Chezmoi](https://www.chezmoi.io/)
+- [Starship](https://starship.rs/)
 
     
