@@ -9,9 +9,6 @@ alias ..='cd ..'
 alias untar='tar -xzvf'
 alias imagine='python3 ~/.local/imagine.py'
 
-# taskwarrior
-alias t='task'
-
 # kubernetes
 alias kc='kubectl'
 alias ks='kubens'
@@ -19,9 +16,3 @@ alias kx='kubectx'
 
 # terraform
 alias tf='terraform'
-alias tfi='terraform init'
-alias tfpo='terraform plan --out tf.plan'
-alias tfap='terraform apply tf.plan'
-alias ts='terraspace'
-alias tg='terragrunt'
-alias tgr='terragrunt run-all'
