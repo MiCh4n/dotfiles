@@ -1,5 +1,5 @@
 I dunno plugins or smth:
-    
-    - [starship](https://starship.rs/)
+
+- [starship](https://starship.rs/)
 
     
