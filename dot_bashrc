@@ -15,6 +15,8 @@ fi
 export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:$(go env GOPATH)/bin
 
+. "$HOME/.cargo/env"
+
 if [ -f ~/.local/bin/virtualenvwrapper.sh ]; then
     export WORKON_HOME=$HOME/.virtualenvs
     export PROJECT_HOME=$HOME/Devel
@@ -65,3 +67,4 @@ if [ ! -f /usr/local/bin/starship ]; then
 else
     eval "$(starship init bash)"
 fi
+
