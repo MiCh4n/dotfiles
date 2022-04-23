@@ -4,9 +4,7 @@ format = """
 $hostname\
 $directory\
 $line_break\
-└─$python\
-$character
-
+└─$python $character
 """
 
 [username]
