@@ -5,6 +5,7 @@ SETUVAR __fish_initialized:3400
 # ALIASES
 # utils
 SETUVAR _fish_abbr_untar:tar -xzvf
+SETUVAR _fish_abbr_docker:nerdctl
 # kubernetes
 SETUVAR _fish_abbr_kc:kubectl
 SETUVAR _fish_abbr_ks:kubens
